@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Cuisine</title>
+
+<style>
+.grid-item1 { grid-area: header; }
+
+.grid-item2 { grid-area: menu; }
+
+.grid-item3 { grid-area: main; }
+
+.grid-item4 { grid-area: footer; }
+
+.grid-container {
+
+display: grid;
+
+grid-template-columns: auto auto auto auto auto;
+
+grid-template-areas:
+
+'header header header header header'
+
+'menu main main main main'
+
+'menu footer footer footer footer';
+background-color: pink;
+
+padding: 30px;
+margin: 20;
+}
+.grid-container div {
+
+background-color: plum;
+justify-content: center;
+text-align: center;
+align-items: center;
+padding: 120px;
+
+border: 4px solid gold;
+
+}
+p
+
+{
+
+color: red;}
+
+ul
+
+{
+
+color: rgb(20, 255, 59);
+
+}
+
+h1
+
+{
+
+color:orangered;
+
+}
+
+ul {
+
+font-family:"Roboto"}
+
+body
+
+{
+
+background-color: pink;
+
+width: 100px;
+
+margin: 20px;
+
+}
+
+.flex-container{
+
+display:flex;
+
+flex-direction:column;
+
+width: 300px;
+
+background-color:teal ;
+
+padding:20px;
+
+}
+
+.flex-container ul{
+
+width: 100px;
+
+background-color:white;
+
+margin:5px;
+
+padding:5px;
+
+}
+
+</style>
+
+
+<body>
+  
+<div class="grid-container">
+
+<div class="grid-item1">
+  <header>By Aria Jain 28/02/26</header>
+ <h1><b><i><u>Cuisines in my Culture</u></i></b></h1>
+  </div>
+
+<div class="grid-item2">
+  <img src="colorful-thali-indian-food-.jpg" height="400" width="500"><br>
+  </div>
+
+<div class="grid-item3">
+<h1>Cuisines that we have in India</h1>
+
+<p>In my country, cuisines that we have are:
+
+<ul class="flex-container">
+
+<li>North Indian Cuisine</li>
+  <img src="Punjabi-thali-WS.jpg" height="200" width="300"><br>
+<li>Central Indian Cuisine</li>
+  <img src="photography-tasty-indian-indian-tikka_1288657-47243.jpg" height="200" width="300"><br>
+<li>South Indian Cuisine</li>
+  <img src="South-Indian-Cuisine.jpg" height="200" width="300"><br>
+
+<li>East Indian Cuisine</li>
+  <img src="foods-in-north-east-india.jpg" height="200" width="300"><br>
+
+<li>West Indian Cuisine</li>
+  <img src="worlds-famous-food-indian-food.jpg" height="200" width="300"><br>
+<li>Street and Regional Specialties</li></ul>
+ <img src="colorful-street-food-stockcake.jpg" height="200" width="300"><br>
+</div>
+
+<div class="grid-item4">
+  <h1> Here are the cuisines we have in India. 
+  Thank You!</h1>
+  
+</div>
+
+</div>
+</body>
+</html>
